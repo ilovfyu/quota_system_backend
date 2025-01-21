@@ -1,0 +1,31 @@
+app:
+  name: quota_system
+  host: 127.0.0.1
+  port: 8088
+  description: use by data warehouse quota platform
+
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  database: quota_system
+  username: root
+  password: root#123
+
+
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  db: 0
+
+
+
+Logger:
+  savepath: ./logger
+  prefix: quota-
+  maxsize: 1
+  maxbackups: 5
+  maxage: 30
+  compress: false
+  level:

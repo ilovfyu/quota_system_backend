@@ -1,0 +1,9 @@
+2025-01-19T10:56:58.104+0800	INFO	quota_system/main.go:15	init zap logger success
+2025-01-19T10:59:47.282+0800	INFO	quota_system/main.go:15	init zap logger success
+2025-01-19T11:00:49.712+0800	ERROR	common/db.go:22	init mysql failed	{"error": "invalid URL escape \"%!F\""}
+2025-01-19T11:01:14.874+0800	ERROR	common/db.go:22	init mysql failed	{"error": "invalid DSN: did you forget to escape a param value?"}
+2025-01-19T11:02:18.608+0800	ERROR	common/db.go:22	init mysql failed	{"error": "invalid DSN: did you forget to escape a param value?"}
+2025-01-19T11:02:28.428+0800	ERROR	common/db.go:23	init mysql failed	{"error": "invalid DSN: did you forget to escape a param value?"}
+2025-01-19T11:02:51.833+0800	ERROR	common/db.go:23	init mysql failed	{"error": "invalid URL escape \"%!F\""}
+2025-01-19T11:03:06.785+0800	ERROR	common/db.go:23	init mysql failed	{"error": "invalid DSN: did you forget to escape a param value?"}
+2025-01-19T11:05:13.333+0800	ERROR	common/db.go:24	init mysql failed	{"error": "invalid DSN: did you forget to escape a param value?"}

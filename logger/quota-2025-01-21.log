@@ -1,0 +1,41 @@
+2025-01-21T10:33:43.309+0800	ERROR	apis/datasource.go:15	create data source with invalid param	{"method": "CreateDataSourceController", "error": "invalid character 'u' after object key:value pair"}
+2025-01-21T11:56:57.752+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T11:59:40.320+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T11:59:47.492+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T12:00:25.581+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T12:04:29.970+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T12:05:28.948+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T12:05:30.897+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T12:07:37.559+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T12:08:22.119+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T12:10:22.419+0800	ERROR	apis/datasource.go:72	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T12:11:11.010+0800	ERROR	apis/datasource.go:72	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T12:11:57.771+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T12:15:22.726+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T12:19:33.224+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T12:24:12.686+0800	ERROR	apis/datasource.go:71	create data source service failed	{"method": "GetDataSourceListController"}
+2025-01-21T14:31:50.131+0800	ERROR	apis/datasource.go:116	create data source service failed	{"method": "TestDataSourceController", "error": "unknown connection type: odps"}
+2025-01-21T14:32:24.011+0800	ERROR	utils/source.go:43	failed to connect to mysql	{"error": "invalid dbname \"%!s(<nil>)\": invalid URL escape \"%!s\""}
+2025-01-21T14:32:24.011+0800	ERROR	apis/datasource.go:116	create data source service failed	{"method": "TestDataSourceController", "error": "invalid dbname \"%!s(<nil>)\": invalid URL escape \"%!s\""}
+2025-01-21T14:33:44.349+0800	ERROR	utils/source.go:44	failed to connect to mysql	{"error": "invalid dbname \"%!s(<nil>)\": invalid URL escape \"%!s\""}
+2025-01-21T14:33:44.349+0800	ERROR	apis/datasource.go:116	create data source service failed	{"method": "TestDataSourceController", "error": "invalid dbname \"%!s(<nil>)\": invalid URL escape \"%!s\""}
+2025-01-21T14:34:02.420+0800	ERROR	utils/source.go:50	failed to ping to mysql	{"error": "dial tcp: lookup tcp/%!d(float64=3306): unknown port"}
+2025-01-21T14:34:02.420+0800	ERROR	apis/datasource.go:116	create data source service failed	{"method": "TestDataSourceController", "error": "dial tcp: lookup tcp/%!d(float64=3306): unknown port"}
+2025-01-21T14:35:22.667+0800	ERROR	utils/source.go:50	failed to ping to mysql	{"error": "dial tcp: lookup tcp/%!s(float64=3306): unknown port"}
+2025-01-21T14:35:22.667+0800	ERROR	apis/datasource.go:116	create data source service failed	{"method": "TestDataSourceController", "error": "dial tcp: lookup tcp/%!s(float64=3306): unknown port"}
+2025-01-21T14:36:06.595+0800	ERROR	utils/source.go:50	failed to ping to mysql	{"error": "dial tcp: lookup tcp/3306.000000: unknown port"}
+2025-01-21T14:36:06.595+0800	ERROR	apis/datasource.go:116	create data source service failed	{"method": "TestDataSourceController", "error": "dial tcp: lookup tcp/3306.000000: unknown port"}
+2025-01-21T14:36:57.013+0800	ERROR	utils/source.go:50	failed to ping to mysql	{"error": "dial tcp: lookup tcp/%!d(string=3306): unknown port"}
+2025-01-21T14:36:57.013+0800	ERROR	apis/datasource.go:116	create data source service failed	{"method": "TestDataSourceController", "error": "dial tcp: lookup tcp/%!d(string=3306): unknown port"}
+2025-01-21T14:37:21.046+0800	ERROR	utils/source.go:50	failed to ping to mysql	{"error": "Error 1049 (42000): Unknown database 'love_backend'"}
+2025-01-21T14:37:21.046+0800	ERROR	apis/datasource.go:116	create data source service failed	{"method": "TestDataSourceController", "error": "Error 1049 (42000): Unknown database 'love_backend'"}
+2025-01-21T18:54:23.039+0800	ERROR	service/datasource.go:106	query datasource failed	{"error": "record not found"}
+2025-01-21T18:54:23.040+0800	ERROR	apis/datasource.go:116	create data source service failed	{"method": "TestDataSourceController", "error": "record not found"}
+2025-01-21T18:56:56.885+0800	ERROR	service/datasource.go:106	query datasource failed	{"error": "record not found"}
+2025-01-21T18:56:56.885+0800	ERROR	apis/datasource.go:116	create data source service failed	{"method": "TestDataSourceController", "error": "record not found"}
+2025-01-21T18:56:57.353+0800	ERROR	service/datasource.go:106	query datasource failed	{"error": "record not found"}
+2025-01-21T18:56:57.353+0800	ERROR	apis/datasource.go:116	create data source service failed	{"method": "TestDataSourceController", "error": "record not found"}
+2025-01-21T18:57:28.851+0800	ERROR	service/dataset.go:33	CreateDataSetService failed	{"error": "Error 1364 (HY000): Field 'id' doesn't have a default value"}
+2025-01-21T18:57:28.851+0800	ERROR	apis/dataset.go:22	create data source service failed	{"method": "CreateDataSetController", "error": "Error 1364 (HY000): Field 'id' doesn't have a default value"}
+2025-01-21T20:10:15.384+0800	ERROR	service/dataset.go:57	QueryDataSetService failed	{"error": "json: Unmarshal(non-pointer []*dto.DataSetData)"}
+2025-01-21T20:10:15.384+0800	ERROR	apis/dataset.go:48	query dataset service failed	{"method": "QueryDataSetController", "error": "json: Unmarshal(non-pointer []*dto.DataSetData)"}
